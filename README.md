@@ -15,18 +15,18 @@ A Machine Learning bases web app to classify messages people posted during a dis
 It contains three main folders:
 
 1. App:-
-**run.py** : Flask file to run the web app
-**templates/** : Contains two .html files.
+- **run.py** : Flask file to run the web app
+- **templates/** : Contains two .html files.
 
 2. Data:-
-**disaster_categories.csv** : Contains all the categories
-**disaster_messages.csv** : Contains all the messages sent during disaster
-**DisasterResponse.db** : Database containing messages and corresponding category values
-**process_data.py** : Python file for processing the two csv files and storing it into the database.
+- **disaster_categories.csv** : Contains all the categories
+- **disaster_messages.csv** : Contains all the messages sent during disaster
+- **DisasterResponse.db** : Database containing messages and corresponding category values
+- **process_data.py** : Python file for processing the two csv files and storing it into the database.
 
 3. Models:
-**train_classify.py** : Machine Learning pipline to train, evaluate and export the data.
-**classifier.pkl** : Output of the machine learning pipeline stored in this file.
+- **train_classify.py** : Machine Learning pipline to train, evaluate and export the data.
+- **classifier.pkl** : Output of the machine learning pipeline stored in this file.
 
 ## Instructions:
 Run the following commands in the project's root directory to set up your database and model.
