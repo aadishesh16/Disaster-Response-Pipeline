@@ -3,9 +3,9 @@ A Machine Learning bases web app to classify messages people posted during a dis
 
 ## Dependencies:
 1. Following packages are required for NLP:
--- punkt
--- wordnet
--- stopwords
+- punkt
+- wordnet
+- stopwords
 2. Python 3.5+
 3. SQLlite Database Library:SQLalchemy
 4. Python modules: Pandas, Numpy, Sci-kit learn,Plotly
@@ -28,13 +28,13 @@ It contains three main folders:
 --train_classify.py : Machine Learning pipline to train, evaluate and export the data.
 --classifier.pkl : Output of the machine learning pipeline stored in this file.
 
-##Instructions:
+## Instructions:
 Run the following commands in the project's root directory to set up your database and model.
 - To run ETL pipeline that cleans data and stores in database `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
 - To run ML pipeline that trains classifier and saves `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 Run the following command in the app's directory to run your web app. `python run.py`
 
-##Acknowledgements:
+## Acknowledgements:
 Udacity for the started code and FigureEight for the dataset.
 
 
